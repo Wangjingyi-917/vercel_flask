@@ -1,8 +1,8 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
-app.config.from_object('config.DevelopmentConfig') # define server
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+#app.config.from_object('config.DevelopmentConfig') # define server
+#app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 #db = SQLAlchemy(app) # connect database
 
 #from models import *
